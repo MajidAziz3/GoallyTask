@@ -1,0 +1,11 @@
+export const headerColor:string='#182545'
+export const bgColor:string='#FDFCFF'
+export const circleColor:string='#FFFFFF'
+export const switchOffColor:string='#72777F'
+export const switchOnColor:string='#72CEBC'
+export const searchColor:string='#49B0AB'
+export const textBlackColor:string='#1A1C1E'
+export const textWhiteColor:string='#FDFCFF'
+export const borderColor:string='#000000'
+export const morningColor:string='#CFE4FF'
+export const borderListColor:string="#BAC1CA"

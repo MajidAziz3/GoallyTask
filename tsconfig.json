@@ -1,0 +1,24 @@
+{
+  "include": ["./src/**/*", "./.gatsby/**/*", "./*.ts", "./plugins/**/*", "react-native.config.js"],
+  "files": ["./declaration.ts"],
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "lib": ["es6","es2017.object"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext",
+    "types": [
+      "@types/styled-components-react-native"
+    ],
+  },
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+  ]
+}
