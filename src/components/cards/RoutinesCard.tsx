@@ -66,13 +66,13 @@ margin-top:${props => props.top}px
 margin-left:${props => props.left}px
 `;
 interface RoutineProps {
-    morningRoutine:boolean
-    onToggleMorning:()=>void;
-    nightToggle:()=>void;
-    nightRoutine:boolean
+  morningRoutine: boolean;
+  onToggleMorning: () => void;
+  nightToggle: () => void;
+  nightRoutine: boolean;
 }
 
-const RoutineCard = (props:RoutineProps) => {
+const RoutineCard = (props: RoutineProps) => {
   const {Moon, BlackChevron, WhiteChevron, DayRoutine} = Images;
   return (
     <Container>
@@ -83,7 +83,7 @@ const RoutineCard = (props:RoutineProps) => {
             <Text weight={400}>Weekdays</Text>
             <Text weight={400}>7:00 AM</Text>
             <SwitchToggle
-            containerStyle={{
+              containerStyle={{
                 marginTop: 3,
                 width: 51,
                 height: 32,
@@ -122,7 +122,7 @@ const RoutineCard = (props:RoutineProps) => {
               9:00 PM
             </Text>
             <SwitchToggle
-            containerStyle={{
+              containerStyle={{
                 marginTop: 3,
                 width: 51,
                 height: 32,
